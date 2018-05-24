@@ -10,6 +10,7 @@ import {
   VBtn,
   VIcon,
   VGrid,
+  VTextField,
   VToolbar,
   transitions
 } from 'vuetify'
@@ -24,6 +25,7 @@ Vue.use(Vuetify, {
     VBtn,
     VIcon,
     VGrid,
+    VTextField,
     VToolbar,
     transitions
   }
