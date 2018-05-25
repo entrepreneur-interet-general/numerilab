@@ -2,8 +2,9 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home'
 import Guide from '@/components/Guide'
-import DomaineFonctionnel from '@/components/DomaineFonctionnel/DomaineFonctionnel'
-import CreateDomaineFonctionnel from '@/components/DomaineFonctionnel/CreateDomaineFonctionnel'
+import Contact from '@/components/Contact'
+import FunctionalDomain from '@/components/FunctionalDomain/FunctionalDomain'
+import CreateFunctionalDomain from '@/components/FunctionalDomain/CreateFunctionalDomain'
 import Profile from '@/components/User/Profile'
 import SignIn from '@/components/User/SignIn'
 import SignUp from '@/components/User/SignUp'
@@ -20,31 +21,37 @@ export default new Router({
     {
       path: '/domainefonctionnel',
       name: 'DomaineFonctionnel',
-      component : DomaineFonctionnel
+      component: FunctionalDomain
     },
     {
       path: '/domainefonctionnel/new',
       name: 'CreateDomaineFonctionnel',
-      component : CreateDomaineFonctionnel
-    },{
+      component: CreateFunctionalDomain
+    },
+    {
       path: '/profile',
       name: 'Profile',
-      component : Profile
+      component: Profile
     },
     {
       path: '/signin',
       name: 'SignIn',
-      component : SignIn
+      component: SignIn
     },
     {
       path: '/guide',
       name: 'Guide',
-      component : Guide
+      component: Guide
+    },
+    {
+      path: '/contact',
+      name: 'Contact',
+      component: Contact
     },
     {
       path: '/signup',
       name: 'SignUp',
-      component : SignUp
+      component: SignUp
     }
   ],
   mode: 'history'
