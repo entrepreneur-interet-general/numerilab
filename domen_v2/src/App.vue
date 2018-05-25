@@ -43,19 +43,19 @@
 
 <script>
 export default {
-  data() {
+  data () {
     return {
       sideNav: false,
       menuItems: [
-        { icon: "supervisor_account", title: "Accueil", link: "/" },
-        { icon: "room", title: "Domaines fonctionnels", link: "/domainefonctionnel" },
-        { icon: "person", title: "Guide", link: '/guide' },
-        { icon: "person", title: "Profile", link: '/profile' },
-        { icon: "face", title: "Sign Up", link: '/signup' },
-        { icon: "person", title: "Sign In", link: '/signin' }
+        { icon: 'supervisor_account', title: 'Accueil', link: '/' },
+        { icon: 'room', title: 'Domaines fonctionnels', link: '/domainefonctionnel' },
+        { icon: 'person', title: 'Guide', link: '/guide' },
+        { icon: 'person', title: 'Profile', link: '/profile' },
+        { icon: 'face', title: 'Sign Up', link: '/signup' },
+        { icon: 'person', title: 'Sign In', link: '/signin' }
       ]
-    };
+    }
   },
-  name: "App"
-};
+  name: 'App'
+}
 </script>
