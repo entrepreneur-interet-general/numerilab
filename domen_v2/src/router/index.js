@@ -6,6 +6,7 @@ import Contact from '@/components/Contact'
 import FunctionalDomain from '@/components/FunctionalDomain/FunctionalDomain'
 import CreateFunctionalDomain from '@/components/FunctionalDomain/CreateFunctionalDomain'
 import Profile from '@/components/User/Profile'
+import Search from '@/components/search/Search'
 import SignIn from '@/components/User/SignIn'
 import SignUp from '@/components/User/SignUp'
 
@@ -22,6 +23,11 @@ export default new Router({
       path: '/domainefonctionnel',
       name: 'DomaineFonctionnel',
       component: FunctionalDomain
+    },
+    {
+      path: '/search',
+      name: 'search',
+      component: Search
     },
     {
       path: '/domainefonctionnel/new',
